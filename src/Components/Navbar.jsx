@@ -14,11 +14,14 @@ function Navbar() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const data = JSON.parse(localStorage.getItem("isUserLogin"));
-  console.log(data.email)
+  console.log(data.email);
   const signOutData = () => {
     signOut(auth).then(() => {
       navigate("/login");
-      localStorage.setItem("isUserLogin", JSON.stringify({ isLoggedIn: false }));
+      localStorage.setItem(
+        "isUserLogin",
+        JSON.stringify({ isLoggedIn: false })
+      );
       window.location.reload();
     });
   };
