@@ -10,3 +10,6 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+#The Assignment Info
+The assignment is related to ecommerce website where I have used React Router,Redux for state Management and ReactJS for frontend .We have added the feature of login where authentication takes place using firebase and user and also has add to cart facility.
